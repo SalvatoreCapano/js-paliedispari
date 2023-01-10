@@ -26,7 +26,7 @@ console.log('---------------');
 // Dichiarazione funzione
 function paliCheck (word) {
 
-    // Questa variabile conterra' l'indice delle lettere a partire dall'ultima
+    // Questa variabile conterra' l'indice delle lettere a partire dall'ultimo
     let j;
 
     for (let i = 0; i < Math.ceil(word.length/2); i++) {
