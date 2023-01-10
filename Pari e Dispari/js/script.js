@@ -44,3 +44,16 @@ console.log ('Hai inserito:', numeroUtente);
 // Generazione numero random per pc
 const numeroPc = randomNumber(1, 5);
 console.log ('Il pc ha inserito:', numeroPc);
+
+const somma = numeroUtente + numeroPc;
+console.log ('La somma è :', somma);
+
+// Controllo se risultato e' pari
+const risultato = isEven(somma);
+console.log ('La somma è un numero:', risultato);
+if (scelta == risultato) {
+    console.log ("L'utente ha vinto");
+}
+else {
+    console.log ("Il pc ha vinto");
+}
